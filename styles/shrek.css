@@ -1,0 +1,60 @@
+#body {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+#body {
+  background-color: #88cc00;
+  font: Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.intro {
+  color: red;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: lime;
+  }
+}
+@media (max-width: 499px) {
+  body {
+    background-color: brown;
+  }
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  color: #006600;
+}
+
+p {
+  color: red;
+}
+
+/* unvisited link */
+a {
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+a link {
+  color: #ff9900;
+}
+a visited {
+  color: #006600;
+}
+a hover {
+  color: #ffcc00;
+}
+a active {
+  color: #006600;
+}
+
+/*# sourceMappingURL=shrek.css.map */

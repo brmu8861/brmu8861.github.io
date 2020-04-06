@@ -1,0 +1,49 @@
+#body {
+
+    background-color: #ff9999;
+    padding: 10px
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+  @media (min-width: 500px) {
+  body {
+      background-color: #ff4d4d;
+  	}
+  }
+
+  @media (max-width: 499px) {
+  body {
+      background-color: yellow;
+  	}
+  }
+
+
+h1,h2,h3,h4,h5,h6 {
+  color: #000066;
+}
+p {
+  color: #000066;
+}
+ /* unvisited link */
+a:link {
+  color: #ffcc00;
+}
+
+/* visited link */
+a:visited {
+  color: #ffff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffff00;
+}
+
+/* selected link */
+a:active {
+  color: #ffff00;
+} 

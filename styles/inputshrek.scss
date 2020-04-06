@@ -1,0 +1,65 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #006600;
+
+%message-shared {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #333;
+}
+
+#body {
+	@extend %message-shared;
+	background-color: #88cc00;
+	font: $font-stack;
+	padding: 10px
+}
+
+.intro {
+	color: red;
+	font-weight: bold;
+}
+
+@media (min-width: 500px) {
+	body {
+		background-color: lime;
+	}
+}
+
+@media(max-width: 499px) {
+	body {
+		background-color: brown;
+	}
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+h1 {
+	color: $primary-color;
+}
+p {
+	color: red;
+}
+/* unvisited link */
+a{
+	link {
+		color: #ff9900;
+	}
+
+	/* visited link */
+	visited {
+		color: $primary-color;
+	}
+
+	/* mouse over link */
+	hover {
+		color: #ffcc00;
+	}
+
+	/* selected link */
+	active {
+		color: $primary-color;
+	} 
+}
